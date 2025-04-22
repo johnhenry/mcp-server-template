@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { handleError } from "./utility.mjs";
 
 export const sampleTool = [
   "sample_tool_name", // name of the tool
