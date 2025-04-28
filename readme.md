@@ -26,7 +26,7 @@ Publish the package to npm is beyond the scope of this template, but once publis
 {
   "mcpServers": {
     ...
-    "vimble-mcp": {
+    "<mcp server name>": {
       "command": "npx",
       "args": [ "-y", "<npm published package name>" ],
     }
@@ -40,7 +40,7 @@ Or you can install it locally for development:
 {
   "mcpServers": {
     ...
-    "vimble-mcp": {
+    "<mcp server name>": {
       "command": "<path to node>",
       "args": [ "<this directory>/index.mjs" ],
     }
